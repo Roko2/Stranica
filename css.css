@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Montserrat');
+body{
+  font-family: 'Montserrat', sans-serif;
+  background-image: url('crna.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: absolute;
+  background-position: center;
+  
+ 
+}
+
+h1{
+	font-family: 'Merriweather',serif;
+	font-size: 32px;
+	padding-bottom: 2%;
+	
+
+}
+iframe{
+	
+	
+	margin-left: 0.15%;
+  width: 51vw ;
+  height: 33vw;
+
+
+}
+div{
+	color:white;
+	font-size: 25px;
+	margin-top: -0.5%;
+	padding-bottom: 9.2%;
+	
+
+}
+.container .pocetna {
+  position: absolute;
+  top: 130%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+
+}
+.container .pocetna:hover{  
+  background-color: black;
+  color: white;
+}
+.container{
+	margin-bottom: 15px;
+}
+

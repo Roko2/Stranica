@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Montserrat');
+body{
+  font-family: 'Montserrat', sans-serif;
+  background-image: url('pozadina.jpg');
+  background-repeat: no-repeat;
+  background-size: 400%;
+  background-position: center;
+}
+h1{
+  font-family: 'Merriweather', serif;
+}
+div.transbox{
+background-color: #ffffff;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+  border-radius: 50px;
+  height: 245px;
+  width: 30%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  display: inline-block;
+  margin-top: 5%;
+
+}
+div.transbox p {
+  margin: 4%;
+  font-weight: bold;
+  color: black;
+  font-size: 1.09vw;
+  padding-top: 2px;
+  line-height: 1.4;
+  text-align: left;
+
+}
+
+.container .pocetna {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+.container .pocetna:hover{  
+  background-color: black;
+  color: white;
+}
